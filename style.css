@@ -1,0 +1,132 @@
+body {
+	margin:0;
+    font-family: "Lato", "Helvetica", Helvetica, sans-serif;
+}
+.container {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.top-space {
+	padding: 30px;
+}
+
+.logo {
+	margin-left: 80px;
+}
+
+.bg-img {
+	/* The image used */
+	background-image:url(img/4.jpg);
+	display: block;
+	padding-top: 190px;
+	padding-bottom: 220px;
+}
+
+.navbar {
+	background-color: #B5EAD7 ;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: #52A171;
+	font-weight: bold;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	line-height: 2;
+}
+
+.topnav-right {
+	float: right;
+	padding-right:100px;
+}
+
+.booking-machine {
+	padding: 25px 20px;
+	background: rgba(230, 230, 202, 0.5);
+	color: black;
+	border-radius: 5px;
+}
+
+fieldset {
+	border: none;
+}
+
+form {
+	width: 100%;
+}
+
+.why tr td {
+	text-align: center;
+}
+
+.searchButton {
+	padding: 10px;
+	width: 100px;
+	border-radius: 5px;
+	background-color: #DE4C30;
+	color: white;
+	font-weight: bold;
+	border: none;
+	margin-left: 15px;
+}
+
+#ui-datepicker-div {
+	background-color: white;
+}
+
+.img-why {
+	margin: 10px 100px;
+	width: 100px;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+#aboutus {
+	background-color:#52A171;
+	padding: 5px 100px;
+}
+
+.foote {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+
+.foote a {
+	color:white;
+	text-decoration: none;
+}
+
+.txt-line-height 
+
+/*newwwww*/
+.container1 {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
