@@ -19,6 +19,8 @@
 
 <!--CONNECTION-->
 <?php
+	$GithubRawURI= "https://raw.githubusercontent.com/cyber139/bus-reservation/master/index.php”;
+
 
 	// If submitted, check the value of "select". If its not blank value, get the value and put it into $select.
 	$connection = mysqli_connect('localhost', 'guest', 'pass','busticket') or die ('Unable to connect!');
